@@ -1,21 +1,21 @@
 import Image from 'next/image';
-import Computer from '../public/computer.jpg';
+import st from '../public/computer.jpg';
 import Link from 'next/link';
 
 export default function University() {
   return (
-    <div className={'w-full h-screen bg-gray-50 dark:bg-gray-900 flex flex-col'}>
-      <div className={' text-center text-3xl font-bold p-24'}>희망 학과</div>
+    <div className={'w-full bg-gray-50 dark:bg-gray-900 flex flex-col'}>
+      <div className={' text-center text-3xl font-bold p-24 dark:text-white'}>희망 학과</div>
       <div className={'flex'}>
-        <div className={'m-4 bg-gray-100 w-full p-4 shadow-xl rounded-xl'}>
-          <div className={'text-2xl font-semibold m-2'}>컴퓨터 공학과/과학과</div>
+        <div className={'m-4 bg-gray-100 w-full p-4 shadow-xl rounded-xl dark:bg-gray-800'}>
+          <div className={'text-2xl font-semibold m-2 dark:text-white'}>컴퓨터 공학과/과학과</div>
           <div>
             <Image
-              src={Computer}
+              src={st}
               alt={'computer science'}
               className={'float-none md:float-left w-96 m-4 rounded-xl'}
             />
-            <p className={'text-xl'}>
+            <p className={'text-xl dark:text-white'}>
               컴퓨터 과학과는 알고리즘, 계산 과정에 대해 학습하고 컴퓨터 소프트웨어에 집중하여
               연구하는 학문입니다. 컴퓨터가 연산하는 구조, 컴퓨터 그래픽, 알고리즘 등을 연구하여
               소프트웨어적 활용을 추구합니다. 컴퓨터공학은 이론적인 측면에서의 기반 기술 연구와 이를
@@ -29,7 +29,7 @@ export default function University() {
       </div>
       <div
         className={
-          'bg-gray-100 shadow-2xl mx-24 rounded-2xl p-4 hover:bg-blue-500 hover:text-white duration-300 transition'
+          'bg-gray-100 shadow-2xl mx-24 rounded-2xl p-4 hover:bg-blue-500 hover:text-white duration-300 transition  dark:bg-gray-700 dark:text-white mb-12'
         }
       >
         <Link href={'/'}>

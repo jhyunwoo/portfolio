@@ -1,21 +1,23 @@
 import Image from 'next/image';
-import refree from '../public/Massimo_Busacca,_Referee,_Switzerland_(10).jpg';
+import st from '../public/refree.jpg';
 import Link from 'next/link';
 
-export default function Challenge() {
+export default function InCNSA() {
   return (
-    <div className={'w-full h-screen bg-gray-50 dark:bg-gray-900 flex flex-col'}>
-      <div className={' text-center text-3xl font-bold p-24'}>새로운 분야 도전과 경험</div>
+    <div className={'w-full bg-gray-50 dark:bg-gray-900 flex flex-col'}>
+      <div className={' text-center text-3xl font-bold p-24 dark:text-white'}>
+        새로운 분야 도전과 경험
+      </div>
       <div className={'flex'}>
-        <div className={'m-4 bg-gray-100 w-full p-4 shadow-xl rounded-xl'}>
-          <div className={'text-2xl font-semibold m-2'}>축구 심판</div>
+        <div className={'m-4 bg-gray-100 w-full p-4 shadow-xl rounded-xl dark:bg-gray-800'}>
+          <div className={'text-2xl font-semibold m-2 dark:text-white'}>축구 심판</div>
           <div>
             <Image
-              src={refree}
+              src={st}
               alt={'computer science'}
               className={'float-none md:float-left w-96 m-4 rounded-xl'}
             />
-            <p className={'text-xl'}>
+            <p className={'text-xl dark:text-white'}>
               학생회에서 진행하는 FB리그에서 축구 주심으로 활동하고 있습니다. 처음 주심을 보기 위해
               축구 규칙을 공부하고 관련 영상을 찾아보며 축구 경기의 흐름과 규칙에 대해
               공부하였습니다. 기존에 축구에 큰 관심이 없어서 규칙과 경기 방식을 이해하는데 시간이
@@ -28,7 +30,7 @@ export default function Challenge() {
       </div>
       <div
         className={
-          'bg-gray-100 shadow-2xl mx-24 rounded-2xl p-4 hover:bg-blue-500 hover:text-white duration-300 transition'
+          'bg-gray-100 shadow-2xl mx-24 rounded-2xl p-4 hover:bg-blue-500 hover:text-white duration-300 transition  dark:bg-gray-700 dark:text-white mb-12'
         }
       >
         <Link href={'/'}>

@@ -46,32 +46,32 @@ export default function Home() {
         <div className="text-4xl font-bold dark:text-white">Categories</div>
         <div className="bg-gray-50 dark:bg-gray-900 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 py-4">
           <Link href="/university">
-            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
               희망 학과
             </div>
           </Link>
           <Link href="/happymoment">
-            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
               행복했던 순간들
             </div>
           </Link>
           <Link href="/incnsa">
-            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
               큰사에서 기억에 남는 활동
             </div>
           </Link>
           <Link href="/respectperson">
-            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
               존경하는 인물
             </div>
           </Link>
           <Link href="/mybook">
-            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
               나의 책 소개
             </div>
           </Link>
           <Link href="/challenge">
-            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
               새로운 분야 도전과 경험
             </div>
           </Link>
