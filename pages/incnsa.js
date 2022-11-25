@@ -5,10 +5,10 @@ import Link from 'next/link';
 export default function InCNSA() {
   return (
     <div className={'w-full h-screen bg-gray-50 dark:bg-gray-900 flex flex-col'}>
-      <div className={' text-center text-3xl font-bold p-24'}>존경하는 인물</div>
+      <div className={' text-center text-3xl font-bold p-24'}>큰사에서 기억에 남는 활동</div>
       <div className={'flex'}>
         <div className={'m-4 bg-gray-100 w-full p-4 shadow-xl rounded-xl'}>
-          <div className={'text-2xl font-semibold m-2'}>앨런 매시슨 튜링</div>
+          <div className={'text-2xl font-semibold m-2'}>Student Teacher</div>
           <div>
             <Image
               src={st}
@@ -16,10 +16,7 @@ export default function InCNSA() {
               className={'float-none md:float-left w-96 m-4 rounded-xl'}
             />
             <p className={'text-xl'}>
-              앨런 튜링은 잉글랜드의 컴퓨터과학자입니다. 앨런 튜링은 세계 제 2차 대전에서 독일군의
-              암호 에니그마를 해독하였으며 이를 통해 컴퓨터과학 분야 발전에 엄청난 영향을 미쳤다.
-              많은 사람의 생명을 살리기 위해 끝까지 암호 해독을 포기하지 않고 컴퓨터과학 분야에
-              지대한 공을 세운 점이 존경받아 마땅할 인물이라 생각되어 선정하였다.
+              Student Teacher 활동을 통해 친구들과 같이 수업을 준비하며 협동력을 발전 시킬 수 있었고 아직 IT 과정을 밟지 않은 1학년 학생의 눈높이를 기준으로 수업을 구상하는 경험을 할 수 있었습니다. 수업을 진행하면서 다른 사람에게 지식을 공유하는 것이 쉽지 않다는 것을 느끼고 기존에 알았던 지식을 좀 더 심도있게 공부할 수 있었습니다. 또한 1학년 학생들의 고민을 들으며 작년에 고민했던 경험을 떠올릴 수 있었습니다.
             </p>
           </div>
         </div>
