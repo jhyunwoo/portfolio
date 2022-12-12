@@ -75,6 +75,11 @@ export default function Home() {
               새로운 분야 도전과 경험
             </div>
           </Link>
+          <Link href="/business">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
+              창업 아이디어
+            </div>
+          </Link>
         </div>
       </div>
 
