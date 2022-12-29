@@ -80,6 +80,21 @@ export default function Home() {
               창업 아이디어
             </div>
           </Link>
+          <Link href="/research">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
+              학생탐구활동
+            </div>
+          </Link>
+          <Link href="/science">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
+              수학/과학 심화 연구
+            </div>
+          </Link>
+          <Link href="/cntextbook">
+            <div className="bg-gray-100 shadow-2xl px-8 p-2 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition duration-300 hover:scale-105 m-4 text-center dark:bg-gray-700 dark:text-white dark:hover:bg-blue-700">
+              친구들을 위한 영어 학습 앱
+            </div>
+          </Link>
         </div>
       </div>
 

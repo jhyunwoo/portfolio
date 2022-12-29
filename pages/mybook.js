@@ -2,7 +2,7 @@ import Image from 'next/image';
 import st from '../public/steve.jpeg';
 import Link from 'next/link';
 
-export default function InCNSA() {
+export default function MyBook() {
   return (
     <div className={'w-full bg-gray-50 dark:bg-gray-900 flex flex-col'}>
       <div className={' text-center text-3xl font-bold p-24 dark:text-white'}>나의 책 소개</div>
