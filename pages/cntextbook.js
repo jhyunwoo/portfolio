@@ -3,6 +3,7 @@ import chapter from '../public/cntextbook-chapter.jpg';
 import dark from '../public/cntextbook-dark.jpg';
 import english from '../public/cntextbook-english.jpg';
 import korean from '../public/cntextbook-korean.jpg';
+import qr from '../public/cntextbook_qr.png';
 import Link from 'next/link';
 
 export default function CNTextbook() {
@@ -47,6 +48,11 @@ export default function CNTextbook() {
             />
             <Image
               src={korean}
+              alt={'computer science'}
+              className={'float-none md:float-left w-40 m-4 rounded-xl'}
+            />
+            <Image
+              src={qr}
               alt={'computer science'}
               className={'float-none md:float-left w-40 m-4 rounded-xl'}
             />
